@@ -14,7 +14,7 @@ Usage
 
 ```ruby
 
-include_recipe "sysrc"
+depends "sysrc"
 
 sysrc 'sshd_enable' do
   value 'YES'
