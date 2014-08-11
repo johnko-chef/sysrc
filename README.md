@@ -16,7 +16,7 @@ Usage
 
 include_recipe "sysrc"
 
-sysrc 'sshd_enabled' do
+sysrc 'sshd_enable' do
   value 'YES'
   file '/etc/rc.conf'
 end
