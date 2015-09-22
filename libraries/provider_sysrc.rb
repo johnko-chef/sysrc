@@ -27,6 +27,8 @@ class Chef::Provider::Sysrc < Chef::Provider::LWRPBase
     true
   end
 
+  provides :sysrc
+
   action :create do
 
     Chef::Log.debug('sysrc: new_resource.variable: '+new_resource.variable)
